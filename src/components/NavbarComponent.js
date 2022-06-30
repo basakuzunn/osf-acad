@@ -435,9 +435,9 @@ export default function NavbarComponent(props) {
                     color: '#84bc22',
                     border: '2px solid #84bc22',
                     borderRadius: '50px',
-                    width: '5px',
-                    height: '18px',
-                    marginLeft: '-20px',
+                    height:'20px',
+                    width:'24px',
+                    marginLeft: '-15px',
                   }}
                 >
                 {props.wishlistCount}
@@ -449,9 +449,9 @@ export default function NavbarComponent(props) {
                     color: '#84bc22',
                     border: '2px solid #84bc22',
                     borderRadius: '50px',
-                    width: '5px',
-                    height: '18px',
-                    marginLeft: '-10px',
+                    height:'20px',
+                    width:'24px',
+                    marginLeft: '-8px',
                   }}
                 >
                 {props.cartCount}
