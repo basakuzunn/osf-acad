@@ -25,13 +25,13 @@ import Contact from './Contact';
 import Library from './Library';
 import Company from './Company';
 import ProductPage from './ProductPage';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import validator from 'validator';
 import layer_2 from './images and icons/Layer_2.png';
 import Categories from './Categories';
 import NotFound from './NotFound';
 
-export default function NavbarComponent() {
+export default function NavbarComponent(props) {
   const [show, setShow] = useState(false);
   const [open, setOpen] = useState(true);
 
@@ -59,6 +59,7 @@ export default function NavbarComponent() {
       setErrorMessage('Not Valid Password');
     }
   };
+
   return (
     <Router>
       <div className='Navbar d-flex justify-content-center'>
@@ -439,7 +440,7 @@ export default function NavbarComponent() {
                     marginLeft: '-20px',
                   }}
                 >
-                  1
+                {props.wishlistCount}
                 </Badge>
                 <img alt='' src={bag} style={{ marginLeft: '10px' }} />
                 <Badge
@@ -453,7 +454,7 @@ export default function NavbarComponent() {
                     marginLeft: '-10px',
                   }}
                 >
-                  2
+                {props.cartCount}
                 </Badge>
               </div>
             </Col>
@@ -464,11 +465,11 @@ export default function NavbarComponent() {
       <div>
         <Routes>
           <Route exact path='/categories' element={<Categories />} />
-          <Route exact path='/product' element={<ProductPage />} />
+          <Route exact path='/product' element={<ProductPage addToCart = {props.addToCart} deleteFromCart = {props.deleteFromCart}/>}/>
           <Route exact path='/company' element={<Company />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/library' element={<Library />} />
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/' element={<Home addToCart = {props.addToCart} addToWishlist = {props.addToWishlist}/>} />
         </Routes>
       </div>
     </Router>

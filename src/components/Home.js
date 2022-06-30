@@ -21,7 +21,7 @@ import CookieConsent from 'react-cookie-consent';
 import PopularItems from './PopularItems';
 import FeaturedProducts from './FeaturedProducts';
 
-export default function Home() {
+export default function Home(props) {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Container fluid>
-        <Row >
+        <Row className='carouselRow'>
           <Col className='home' >
             <Carousel
               activeIndex={index}
@@ -127,7 +127,7 @@ export default function Home() {
           </Col>
         </Row>
         {/*Popular Items */}
-        <PopularItems />
+        <PopularItems addToCart = {props.addToCart} addToWishlist = {props.addToWishlist} />
         <div className='mobileImg'>
       <img  src={layer_162} alt='ımg'/></div>
         {/*Banner */}

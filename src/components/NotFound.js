@@ -5,6 +5,7 @@ import exclamation from './images and icons/Exclamation.png';
 import search from './images and icons/Search.png';
 import { Link } from 'react-router-dom';
 import Footer from './Footer.js';
+
 export default class Company extends Component {
   render() {
     return (

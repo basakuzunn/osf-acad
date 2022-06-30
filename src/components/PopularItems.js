@@ -9,7 +9,7 @@ import ProductPage from './ProductPage';
 import { Link } from 'react-router-dom';
 import './ProductItems.css'
 
-export default function PopularItems() {
+export default function PopularItems(props) {
   function dubArr(arr) {
     const arrCopy = [...arr];
     return arrCopy.concat(arr);
@@ -43,9 +43,9 @@ export default function PopularItems() {
                   {item.hover ? (
                     <div class='overlay'>
                       <div class='text'>
-                        <img className='plus' src={plus} alt='ellipse' />
+                        <img className='plus' src={plus} alt='ellipse' onClick={() => {props.addToCart()}} />
 
-                        <img className='heart' src={heart} alt='ellipse' />
+                        <img className='heart' src={heart} alt='ellipse' onClick={() => {props.addToWishlist()}} />
                       </div>
                     </div>
                   ) : (
