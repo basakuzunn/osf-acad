@@ -35,19 +35,20 @@ export default class Library extends Component {
               <Button
                 variant='light'
                 className='footerSubCategories'
+                href='./company'
               >
                 Alcohol
               </Button>
-              <Button variant='light' className='footerSubCategories'>
+              <Button variant='light' className='footerSubCategories' href='./company'>
                 Art
               </Button>
-              <Button variant='light' className='footerSubCategories'>
+              <Button variant='light' className='footerSubCategories' href='./company'>
                 Books
               </Button>
-              <Button variant='light' className='footerSubCategories'>
+              <Button variant='light' className='footerSubCategories' href='./company'>
                 Drink
               </Button>
-              <Button variant='light' className='footerSubCategories'>
+              <Button variant='light' className='footerSubCategories' href='./company'>
                 Electronics
               </Button>
             </p>
@@ -55,79 +56,79 @@ export default class Library extends Component {
           <Col className='footerCategories'>
             <br />
             <br />
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Home
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Jewelry
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Kids & Baby
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Men's Fashion
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Mobile
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Motorcycles
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Movies
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Music
             </Button>
           </Col>
           <Col className='footerCategories'>
             <br />
             <br />
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Sport
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Toys
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Travel
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Women's Fashion
             </Button>
           </Col>
           <Col>
             <p className='footerCategoriesAbout'> About</p>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               About us
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Delivery
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Testimonials
             </Button>
-            <Button variant='light' className='footerSubCategories'>
+            <Button variant='light' className='footerSubCategories' href='./company'>
               Contact
             </Button>
           </Col>
           <Col className='iconCols'>
-            <Button variant='light'>
-              <img src={f1} alt='facebook' className='facebookIcon' />
+            <Button variant='light' href="http://www.facebook.com/">
+              <img src={f1} alt='facebook' className='facebookIcon'   />
             </Button>
           </Col>
           <Col className='iconCols'>
-            <Button variant='light'>
+            <Button variant='light'  href="http://www.google.com/">
               <img src={g} alt='google' />
             </Button>
           </Col>
           <Col className='iconCols'>
-            <Button variant='light'>
+            <Button variant='light'  href="http://www.twitter.com/">
               <img src={t} alt='twitter' />
             </Button>
           </Col>
-          <Col className='iconLastCols'>
-            <Button variant='light'>
+          <Col className='iconLastCols'  >
+            <Button variant='light' href="http://www.pinterest.com/">
               <img src={p} alt='pinterest' />
             </Button>
           </Col>

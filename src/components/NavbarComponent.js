@@ -29,6 +29,7 @@ import { useState } from 'react';
 import validator from 'validator';
 import layer_2 from './images and icons/Layer_2.png';
 import Categories from './Categories';
+import NotFound from './NotFound';
 
 export default function NavbarComponent() {
   const [show, setShow] = useState(false);
@@ -112,35 +113,35 @@ export default function NavbarComponent() {
                                   </div>
                                 </li>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Accessories
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Alcohol
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Art
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Books
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Drink
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Electronic
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Flowers & Plants
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#productCategories-sub-tab'>
+                                <NavDropdown.Item href='./company'>
                                   Food
                                 </NavDropdown.Item>
                               </ul>
@@ -156,35 +157,35 @@ export default function NavbarComponent() {
                                     </div>
                                   </div>
                                 </li>
-                                <NavDropdown.Item href='#example-1'>
+                                <NavDropdown.Item href='./company'>
                                   Gadgets
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-2'>
+                                <NavDropdown.Item href='./company'>
                                   Garden
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-3'>
+                                <NavDropdown.Item href='./company'>
                                   Grocery
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-4'>
+                                <NavDropdown.Item href='./company'>
                                   Home
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-5'>
+                                <NavDropdown.Item href='./company'>
                                   Jewelry
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-6'>
+                                <NavDropdown.Item href='./company'>
                                   Kids & Baby
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Men's Fashion
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Mobile
                                 </NavDropdown.Item>
                               </ul>
@@ -194,42 +195,42 @@ export default function NavbarComponent() {
                                 <li className='dropdown-header'>
                                   <div className='menu-icon-wrapper'>
                                     <div>
-                                      <NavDropdown.Item href='#environment'>
+                                      <NavDropdown.Item href='./company'>
                                         <br />
                                       </NavDropdown.Item>
                                     </div>
                                   </div>
                                 </li>
 
-                                <NavDropdown.Item href='#example-1'>
+                                <NavDropdown.Item href='./company'>
                                   Motorcycle
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-2'>
+                                <NavDropdown.Item href='./company'>
                                   Movies
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-3'>
+                                <NavDropdown.Item href='./company'>
                                   Music
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-4'>
+                                <NavDropdown.Item href='./company'>
                                   Office
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-5'>
+                                <NavDropdown.Item href='./company'>
                                   Pets
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-6'>
+                                <NavDropdown.Item href='./company'>
                                   Romantic
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Sport
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Toys
                                 </NavDropdown.Item>
                               </ul>
@@ -239,42 +240,42 @@ export default function NavbarComponent() {
                                 <li className='dropdown-header'>
                                   <div className='menu-icon-wrapper'>
                                     <div>
-                                      <NavDropdown.Item href='#technology'>
+                                      <NavDropdown.Item href='./company'>
                                         <b>Sale</b>
                                       </NavDropdown.Item>
                                     </div>
                                   </div>
                                 </li>
 
-                                <NavDropdown.Item href='#example-1'>
+                                <NavDropdown.Item href='./company'>
                                   Accessories
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-2'>
+                                <NavDropdown.Item href='./company'>
                                   Alcohol
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-3'>
+                                <NavDropdown.Item href='./company'>
                                   Art
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-4'>
+                                <NavDropdown.Item href='./company'>
                                   Books
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-5'>
+                                <NavDropdown.Item href='./company'>
                                   Drink
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-6'>
+                                <NavDropdown.Item href='./company'>
                                   Electronics
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Flowers & Plants
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item href='#example-7'>
+                                <NavDropdown.Item href='./company'>
                                   Food
                                 </NavDropdown.Item>
                               </ul>
@@ -289,7 +290,7 @@ export default function NavbarComponent() {
                                       </NavDropdown.Item>
                                     </div>
                                   </div>
-                                  <NavDropdown.Item href='#example-1'>
+                                  <NavDropdown.Item href='./company'>
                                     <img
                                       alt=''
                                       src={services}

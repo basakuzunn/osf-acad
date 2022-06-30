@@ -119,7 +119,7 @@ export default function Home() {
               <br />
               Sed ut perspiciatis unde omnis iste natus error sit
               <br />
-              <Button variant='outline-primary' href='facebook.com'>
+              <Button variant='outline-primary' href="http://www.facebook.com/">
                 <img className='f' src={f} alt='facebook' />
                 <p className='facebookText'>Follow</p>
               </Button>
@@ -185,10 +185,9 @@ export default function Home() {
           backgroundColor: '#ffffff',
           color: 'black',
           textAlign: 'left',
-          width: '1150px',
           borderRadius: '10px',
-          marginLeft: '50px',
         }}
+        className='cookieConsent'
       >
         <h4 style={{ color: '#84bc22' }}>This website uses cookies </h4>
         <br />

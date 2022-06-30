@@ -16,6 +16,8 @@ import ProductItems from './ProductItems';
 import Footer from './Footer';
 import MobileProductItems from './MobileProductItems';
 import MobileFooter from './MobileFooter'
+import MobileFilters from './MobileFilters';
+
 export default class Categories extends Component {
   render() {
     return (
@@ -30,6 +32,7 @@ export default class Categories extends Component {
             Category Landing
           </Breadcrumb.Item>
         </Breadcrumb>
+        <MobileFilters/>
         <div className='filters'>
           <Row
             style={{

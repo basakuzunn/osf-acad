@@ -121,22 +121,22 @@ export default class Library extends Component {
           
            <Row className='mobileIconCols'>
           <Col className='iconCols'>
-            <Button variant='light'>
+            <Button variant='light'  href="http://www.facebook.com/">
               <img src={f1} alt='facebook' className='facebookIcon' />
             </Button>
           </Col>
-          <Col className='iconCols'>
-            <Button variant='light'>
+          <Col className='iconCols' >
+            <Button variant='light'  href="http://www.google.com/">
               <img src={g} alt='google' />
             </Button>
           </Col>
           <Col className='iconCols'>
-            <Button variant='light'>
+            <Button variant='light'  href="http://www.twitter.com/">
               <img src={t} alt='twitter' />
             </Button>
           </Col>
           <Col className='MobileIconLastCols'>
-            <Button variant='light'>
+            <Button variant='light'  href="http://www.pinterest.com/">
               <img src={p} alt='pinterest' />
             </Button>
           </Col></Row>
