@@ -1,0 +1,23 @@
+.accordion {
+  width: 320px;
+  margin-left: -25px;
+  margin-bottom: 15px;
+}
+.accordion-button {
+  width: 320px;
+}
+.mobileIconCols {
+  width: 320px;
+  margin-top: 20px;
+}
+.iconCols {
+  background-color: #fff !important;
+  margin-right: 30px;
+  max-width: 8px !important;
+  height: 17px !important;
+}
+.MobileIconLastCols {
+    margin-left: 10px !important;
+    max-width: 6px !important;
+    height: 17px;
+  }

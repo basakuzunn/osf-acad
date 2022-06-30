@@ -1,0 +1,256 @@
+@media screen and (min-width: 768px) {
+  .carousel {
+    margin-left: 90px;
+  }
+  .justify-content-center {
+    height: 90px;
+  }
+  .navbar-expand-lg {
+    height: 70px;
+    margin-top: 20px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    height: 70px !important;
+  }
+  .navbar {
+    width: 850px;
+  }
+  .navbar-collapse {
+    margin-left: 50px;
+  }
+  .navbar-brand {
+    margin: 10px;
+  }
+  .d-flex {
+    background-color: white;
+  }
+  .Logo {
+    margin-top: 20px !important;
+    display: flex;
+    float: left;
+  }
+  .osfLogo {
+    /* Style for "OSF" */
+    width: 73px;
+    height: 25px;
+    color: #011847;
+    font-size: 32px;
+    font-weight: 650 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: -20px !important;
+    padding: 20px;
+    /* Text style for "O, SF" */
+    font-style: normal;
+    letter-spacing: 6.33px;
+    line-height: normal;
+  }
+  .academyLogo {
+    /* Style for "Academy" */
+    width: 74px;
+    height: 17px;
+    color: #84bc22;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Academy" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .icons {
+    margin-top: 30px !important;
+  }
+  .btn-white {
+    border-style: none !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 1290px;
+    left: -230px;
+  }
+  .large-dropdown-menu ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .large-dropdown-menu ul li a {
+    text-decoration: none;
+  }
+
+  .large-dropdown-menu ul li a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    white-space: normal;
+  }
+
+  .large-dropdown-menu ul li a:hover,
+  .large-dropdown-menu ul li a:focus {
+    text-decoration: none;
+    background-color: #f5f5f5;
+  }
+
+  .dropdown-menu-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .nav-link:hover {
+    color: white !important;
+  }
+
+  .Lang:hover {
+    background-color: white !important;
+    border-bottom: none;
+  }
+  .NavTitle:hover {
+    background-color: #262a32;
+    border-bottom: 3px solid #84bc22;
+  }
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .modal-content {
+    width: 500px;
+    height: 467px;
+    background-color: #ffffff;
+  }
+  .modal-header {
+    border-bottom: 0 none !important;
+  }
+
+  .modal-footer {
+    border-top: 0 none !important;
+  }
+  .modal-title {
+    /* Style for "Sign in" */
+    width: 89px;
+    height: 28px;
+    color: #45413e;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 900 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 200px;
+    padding-top: 50px !important;
+    text-align: center;
+  }
+  .modal-body {
+    padding-left: 50px !important;
+    padding-top: 80px !important;
+  }
+  .form-label {
+    width: 30px;
+    height: 10px;
+    color: #45413e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+  }
+  .form-control {
+    width: 398px !important;
+    height: 36px;
+    border: 2px solid #d7d7d7 !important;
+    border-radius: 50px !important;
+    margin-bottom: 30px;
+  }
+  .passwordImg {
+    position: relative;
+    margin-left: 350px;
+    margin-top: -170px;
+  }
+  .btn-primary {
+    width: 181px;
+    height: 36px;
+    border: 2px solid #84bc22 !important;
+    background-color: #84bc22 !important;
+    margin-right: 150px !important;
+    margin-bottom: 30px !important;
+    margin-top: -50px !important;
+    border-radius: 50px !important;
+  }
+  .modalText {
+    width: 135px;
+    height: 10px;
+    color: #84bc22;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    margin-bottom: 50px !important;
+    margin-left: 190px;
+    margin-top: -40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar-collapse {
+    background-color: #262a32;
+    width: 400 !important;
+    padding-bottom: 10px;
+    max-height: 400px !important;
+    margin-top: -20px;
+  }
+  .navCol {
+    height: 110px;
+    
+  }
+  .navbar-toggler {
+    margin-right: 90px !important;
+    margin-top: -120px;
+  }
+
+  .navbar-brand {
+    margin-left: 400px !important;
+    width: 128px;
+    height: 100px !important;
+  }
+  .nonDisplayable {
+    display: none;
+  }
+  .dropdown-toggle nav-link {
+    width: 300px !important;
+  }
+  .nav-link {
+    float: left;
+    color: white !important;
+  }
+  .NavTitle {
+    margin-left: -150px;
+    color: #ffffff !important;
+    margin-bottom: -10px !important;
+  }
+  .Lang {
+    display: none;
+  }
+  .iconCol {
+    position: fixed;
+    bottom: 0;
+  }
+  .osfLogo {
+    display: none;
+  }
+  .academyLogo {
+    display: none;
+  }
+}

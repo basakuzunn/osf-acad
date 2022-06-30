@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+  .carousel {
+    display: flex;
+    width: 750px !important;
+    height: 400px !important;
+  }
+
+  .firstSlide {
+    position: relative;
+    left: -100px;
+    top: -150px;
+    text-align: left;
+  }
+  .firstSlideButton {
+    /* Style for "back" */
+    width: 147px !important;
+    height: 36px !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    display: flex;
+    float: left;
+    margin-top: -70px !important;
+    margin-left: -60px;
+
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal !important;
+    text-transform: uppercase;
+  }
+  .secondSlide {
+    position: relative;
+    top: -90px;
+  }
+  .secondSlideButton {
+    width: 147px !important;
+    height: 36px !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    margin-top: -110px !important;
+
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal !important;
+    text-transform: uppercase;
+  }
+  .thirdSlide {
+    position: relative;
+    right: -100px;
+    top: -100px;
+    text-align: right;
+  }
+  .thirdSlideButton {
+    width: 147px !important;
+    height: 36px !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    display: flex;
+    float: right;
+    margin-bottom: 60px !important;
+    margin-right: -60px;
+
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal !important;
+    text-transform: uppercase;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    margin-bottom: 50px !important;
+    height: 10px !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 8px !important;
+    height: 8px !important;
+    border: 3px solid #ffffff !important;
+    background-color: #ffffff !important;
+  }
+  .carousel-inner {
+    height: 400px !important;
+  }
+  .carousel-item {
+    height: 400px !important;
+  }
+  .carousel slide {
+    height: 400px !important;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px !important;
+  }
+  .saleImg {
+    display: flex;
+    float: left;
+    max-width: 250px;
+    max-height: 300px;
+  }
+  .salesContent {
+    position: relative;
+    max-width: 200px;
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .btn-outline-primary {
+    position: relative;
+    border-radius: 20px !important;
+    width: 130px;
+    height: 30px;
+    border: 3px solid #3a5b96 !important;
+    margin-top: 5px !important;
+  }
+  .btn-outline-primary:hover {
+    background-color: #ffffff !important;
+  }
+  .f {
+    margin-right: 70px;
+    margin-bottom: 10px;
+  }
+  .facebookText {
+    /* Style for "Follow" */
+    width: 57px;
+    height: 10px;
+    color: #3a5b96;
+    font-family: Lato !important;
+    font-size: 14px;
+    font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: -30px;
+    margin-left: 30px !important;
+    /* Text style for "Follow" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .itemRow {
+    background-color: #262a32;
+  }
+
+  .popularItems {
+    margin-top: 50px !important;
+    display: flex;
+    align-items: center;
+    background-color: #262a32;
+    width: 100%;
+  }
+  .itemsTitle {
+    padding-top: 100px;
+    color: white;
+  }
+  .line {
+    margin-top: 100px;
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 515px;
+  }
+
+  .itemsImg {
+    background-color: #262a32;
+  }
+  .cardImgs {
+    margin-left: 50px !important;
+  }
+  .firstImg {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 260px;
+    min-height: 384px !important;
+  }
+  .midImg {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 260px !important;
+  }
+
+  .midImg2 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 260px !important;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-image: linear-gradient(to top, #1cc167 0%, #2ed3a2 100%);
+  }
+  .card:hover .overlay {
+    opacity: 0.9;
+  }
+  .plus {
+    width: 100px;
+    height: 90px;
+    z-index: 0;
+    margin-top: 130px;
+  }
+  .heart {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+    margin-top: 130px;
+  }
+
+  .secondMidImg {
+    margin-bottom: 50px;
+
+    margin-top: 30px;
+    width: 260px !important;
+  }
+  .btn-outline-dark {
+    border-radius: 50px !important;
+    border: 2px solid #7f7f7f !important;
+    width: 199px !important;
+  }
+  .fourthImg {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    width: 260px;
+  }
+  .fiveImg {
+    margin-top: 30px;
+    margin-left: 50px !important;
+    width: 260px !important;
+  }
+  .lastImg {
+    background-image: linear-gradient(to top, #675b99 0%, #dc5987 100%);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width: 260px !important;
+    max-height: 379px !important;
+    opacity: 0.9;
+  }
+  .lastImg .card-img-top {
+    min-height: 380px;
+  }
+  .lastImgP {
+    position: relative;
+    color: white;
+    top: 200px;
+    text-align: left;
+  }
+  .btn-outline-secondary {
+    border: 2px solid #e8e2d6 !important;
+    border-radius: 50px !important;
+    width: 261px;
+    height: 36px;
+  }
+  .banner {
+    background-color: #262a32;
+  }
+  .bannerCard {
+    background-color: #262a32 !important;
+    border-style: none !important;
+  }
+  .bannerImg {
+    margin-top: 50px !important;
+  }
+  .bannerImgTitle {
+    position: relative;
+    margin-top: 200px !important;
+    color: #ffffff !important;
+    font-size: 48px !important;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .bannerImgText {
+    position: relative;
+    margin-top: 20px !important;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .featuredProducts {
+    background-color: #262a32;
+  }
+  .featuredProducts .card {
+    margin-right: 10px !important;
+  }
+  .featuredProductTitle {
+    margin-top: 30px !important;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .featuredCardGroup {
+    display: flex !important;
+    justify-content: space-around;
+    margin-right: 100px;
+  }
+  .featuredProductText {
+    color: #ffffff;
+  }
+  .imgSlider {
+    margin-left: 55px !important;
+    width: 100% !important;
+    margin-bottom: 30px;
+    padding-top: 50px !important;
+  }
+  .sliderFirstImg {
+    max-width: 100%;
+    max-height: 190px !important;
+  }
+  .sliderCardBody {
+    padding-top: 200px !important;
+    width: 270px;
+    height: 300px !important;
+  }
+  .sliderFirstCard {
+    width: 270px !important;
+  }
+  .featureCardTextP {
+    margin-top: 10px;
+    color: #84bc22;
+  }
+
+  .carousel-control-prev {
+    height: 32px;
+    margin-left: 300px !important;
+    margin-top: -30px !important;
+    width: 50px !important;
+  }
+  .carousel-control-prev:hover {
+    background-color: #262a32 !important;
+  }
+  .carousel-control-prev:focus {
+    background-color: #262a32 !important;
+  }
+  .carousel-control-next {
+    height: 32px;
+    margin-right: 400px !important;
+    margin-top: -30px !important;
+    width: 50px !important;
+  }
+  .carousel-control-next:hover {
+    background-color: #262a32 !important;
+  }
+  .carousel-control-next:focus {
+    background-color: #262a32 !important;
+  }
+
+  .featuredLine1 {
+    margin-left: 400px;
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    justify-content: center;
+  }
+  .featuredLine2 {
+    margin-right: 400px;
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    justify-content: center;
+  }
+  .featuredLineTitle {
+    padding: 0 10px 0 10px;
+    color: white;
+  }
+  .staticContent {
+    background-color: #45413e;
+    padding: 50px;
+  }
+  .contentImg {
+    display: flex;
+    float: left;
+    margin-right: 50px;
+  }
+  h6 {
+    color: #ffffff !important;
+    text-align: left;
+  }
+  .contentP {
+    margin-left: 110px !important;
+    width: 206px;
+    height: 50px;
+    color: #868380;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    /* Text style for "Our unwave" */
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    /* Text style for "laudantium" */
+    font-family: 'Myriad Pro - Regular';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  #rcc-confirm-button {
+    background-color: #84bc22 !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+  }
+  .mobileImg {
+    display: none;
+  }
+  .mobileFeaturedProducts {
+    display: none;
+  }
+  .mobileFooter {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-fluid {
+    background-color: #262a32;
+    width: 450px !important;
+  }
+  .mobileImg {
+    width: 450px;
+    padding-right: 50px;
+  }
+  .CookieConsent {
+    display: none;
+  }
+  .homePage-carousel {
+    display: none;
+  }
+  .saleImg {
+    display: none;
+  }
+  .salesContent {
+    display: none;
+  }
+  .popularItem-mobile {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    width: 400px !important;
+    height: 100% !important;
+  }
+
+  .bannerCard {
+    background-color: #262a32 !important;
+    border-style: none !important;
+  }
+  .bannerImg {
+    width: 500px !important;
+    height: 200px !important;
+    margin-left: -50px !important;
+    margin-top: 50px !important;
+  }
+  .bannerImgTitle {
+    margin-top: 70px !important;
+    margin-left: 40px;
+    width: 249px;
+    height: 24px;
+    color: #ffffff !important;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center !important;
+  }
+  .bannerImgText {
+    /* Text style for "Sed ut per" */
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .featuredProductTitle {
+    display: none;
+  }
+  .featuredProductDisplay {
+    display: none;
+  }
+  .featuredProductText {
+    display: none;
+  }
+  .mobileFeaturedProducts {
+    width: 40px;
+  }
+  .featuredProducts {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    margin-left: 5px !important;
+    width: 390px !important;
+  }
+  .carousel-indicators {
+    margin-bottom: -30px !important;
+  }
+  .featureCardTextP {
+    margin-top: 10px;
+    color: #84bc22;
+  }
+  .sliderCardBody {
+    height: 120px !important;
+  }
+  .staticContent {
+    background-color: #45413e;
+    width: 450px !important;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .contentP {
+    /* Style for "Our unwave" */
+    width: 134px;
+    height: 86px;
+    color: #868380;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+  }
+  .staticContent h6 {
+    /* Style for "Focus" */
+    width: 57px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .contentImg {
+    display: flex;
+    padding: 20px;
+  }
+  .footerDisplay {
+    display: none;
+  }
+  .mobileFooter {
+    background-color: #ffffff;
+    width: 450px;
+    padding-bottom: 50px;
+    margin-left: -10px;
+  }
+}
