@@ -56,9 +56,9 @@ export default function PopularItems() {
           })}
         </CardGroup>
       </Row>
-      <Row className='ProductItemsImg'>
-        <Col>
-          <Button onClick={() => loadMore()}>LOAD MORE</Button>
+      <Row  >
+        <Col style={{marginLeft:'200px'}}>
+          <Button  onClick={() => loadMore()}>LOAD MORE</Button>
         </Col>
       </Row>
     </div>

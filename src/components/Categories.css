@@ -91,4 +91,22 @@
     width: 300px;
     margin-left: 50px;
   }
+  .staticContent h6 {
+    /* Style for "Focus" */
+    width: 57px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .contentImg {
+    display: flex;
+    padding: 20px;
+  }
 }

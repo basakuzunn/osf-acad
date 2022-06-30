@@ -17,6 +17,10 @@ import Footer from './Footer';
 import MobileProductItems from './MobileProductItems';
 import MobileFooter from './MobileFooter'
 import MobileFilters from './MobileFilters';
+import delivery from './images and icons/Delivery.png';
+import triangular from './images and icons/Triangular.png';
+import clipboard from './images and icons/Clipboard.png';
+import CategoriesFeaturedProduct from './CategoriesFeaturedProduct';
 
 export default class Categories extends Component {
   render() {
@@ -136,8 +140,36 @@ export default class Categories extends Component {
           <MobileProductItems />
           <ProductItems />
         </div>
+       
         <div>
-          <FeaturedProducts />
+          <CategoriesFeaturedProduct />
+        </div> <div>
+        <Row className='staticContent'>
+          <Col>
+            <img className='contentImg' src={delivery} alt='delivery' />
+            <h6>FOCUS</h6>
+            <p className='contentP'>
+              Our unwavering focus on superior service delivery and building
+              next generation competencies
+            </p>
+          </Col>
+          <Col>
+            <img className='contentImg' src={triangular} alt='triangular' />
+            <h6>METHOD</h6>
+            <p className='contentP'>
+              A standardized methodology designed to deliver measurable business
+              results and predictable costs
+            </p>
+          </Col>
+          <Col>
+            <img className='contentImg' src={clipboard} alt='clipboard' />
+            <h6>KNOWLEDGE</h6>
+            <p className='contentP'>
+              A highly skilled, proactive workforce that reliably improves each
+              client’s ROI while mitigating their business risk
+            </p>
+          </Col>
+        </Row>
         </div>
         <div>
           <MobileFooter/>

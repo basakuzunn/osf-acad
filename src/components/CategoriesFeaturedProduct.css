@@ -1,0 +1,10 @@
+.categoriesPopularItems {
+    margin-top: 50px !important;
+    display: flex;
+    align-items: center;
+    background-color: #f1edea;
+    width: 100%;
+  }
+  .CategoriesFeaturedLineTitle{
+    color: black;
+  }
