@@ -7,6 +7,7 @@ import t from './images and icons/t.png';
 import './Footer.css';
 
 export default class Library extends Component {
+  
   render() {
     return (
       <footer className='footerDisplay'>
